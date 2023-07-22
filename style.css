@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(/9290536.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+
+
+.sorteio{
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFF;
+    background-color: #ff5722;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0);
+    margin-bottom: 15px;
+}
+
+.sorteio:hover{
+    background-color: #be411b;
+    transition: ease 0.3s;
+    transform: scale(1.1);
+
+}
+
+h1{
+    margin-bottom: 15px;
+    font-size: 74px;
+    color: #FFF;
+}
+
+p{
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 28px;
+    color: #FFF;
+}
+
+#numerosSorteados{
+    font-size: 24px;
+    margin-left: 20px;
+    
+}
